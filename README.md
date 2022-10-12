@@ -12,7 +12,7 @@
 
 ### Prerequisites
 
-- [Node.js][2]
+- [npm in Node.js][2]
 
 ### How to execute server
 
