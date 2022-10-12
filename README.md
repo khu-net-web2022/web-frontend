@@ -1,4 +1,4 @@
-# KHU-NET 2022 WEB Project Frontend Repo
+# KHU-kie Market(KHU-NET 2022 WEB Project) Frontend Repo
 
 ## About the project
 
@@ -6,11 +6,13 @@
 
 프론트엔드를 구현한 코드를 저장한 레포지토리입니다.
 
+[백엔드 레포지토리][1]
+
 ## Getting Started
 
 ### Prerequisites
 
-- npm
+- [Node.js][2]
 
 ### How to execute server
 
@@ -28,10 +30,13 @@
 
    `npm start`
 
-## Tech Stack/Library
+## Tech Stack / Library
 
-- React.js
+- React.js, React Router
 
 ## Current Status
 
-백엔드의 API를 요청하고, 받은 응답을 출력하는 정도의 간단한 수준만 구현하였음.
+위의 Navbar만 구현한 상태이고, 프론트엔드 조원들이 pages 내부의 페이지들을 구현할 예정입니다.
+
+[1]: https://github.com/khu-net-web2022/web-backend
+[2]: https://nodejs.org
