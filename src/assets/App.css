@@ -1,0 +1,85 @@
+@import url(./reset.css);
+
+#root {
+  /* background-color: rgb(255, 230, 197); */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+/* Page Wrapper */
+
+.App div {
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* temporary */
+  align-items: center;
+  font-size: x-large;
+}
+
+/* NAVBAR */
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  /* navbar fixed on top */
+  position: fixed;
+  top: 0;
+  width: 98vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 1vw;
+  border-bottom: 2px rgb(193, 193, 193) solid;
+}
+
+.navbar a {
+  color: inherit;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  display: block;
+
+  padding: 10px;
+  border: 1px solid white;
+
+  border-radius: 10px;
+  text-decoration: none;
+  transition: ease-in-out 0.25s;
+}
+
+.navbar ul li a:hover {
+  border: 1px solid rgb(13, 50, 111);
+
+  background-color: rgb(233, 233, 233);
+}
+.navbar-logo {
+  padding: 0.7rem 0.3rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: ease-in-out 0.25s;
+}
+.navbar-logo:hover {
+  border: 1px solid rgb(164, 15, 22);
+  background-color: rgb(233, 233, 233);
+}
+
+.navbar-input {
+  padding: 5px;
+  border-radius: 5px;
+
+  background-color: aliceblue;
+}
