@@ -8,17 +8,21 @@
   flex-direction: column;
 }
 
-/* Page Wrapper */
+/*** Page Wrapper ***/
 
-.App div {
+.content-block{
   display: flex;
   justify-content: center;
-  height: 100vh; /* temporary */
+
+  /* for navbar */
+  margin-top: 15vh; 
+  /* for navbar */
+
   align-items: center;
   font-size: x-large;
 }
 
-/* NAVBAR */
+/*** NAVBAR ***/
 a {
   text-decoration: none;
 }
@@ -28,6 +32,8 @@ a {
   position: fixed;
   top: 0;
   width: 98vw;
+  z-index: 99;
+  background-color: white;
 
   display: flex;
   justify-content: space-between;
@@ -66,6 +72,7 @@ a {
 
   background-color: rgb(233, 233, 233);
 }
+
 .navbar-logo {
   padding: 0.7rem 0.3rem;
   border: 1px solid white;
@@ -83,6 +90,46 @@ a {
 
   background-color: aliceblue;
 }
+
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-left a.navbar-btn {
+  padding: 0.7rem 0.3rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: ease-in-out 0.25s;
+}
+
+.navbar-left a.navbar-btn:hover {
+  border: 1px solid rgb(164, 15, 22);
+  background-color: rgb(233, 233, 233);
+}
+
+.navbar-logout {
+  font-size: medium;
+  display: block;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid white;
+
+  border-radius: 10px;
+  text-decoration: none;
+  transition: ease-in-out 0.25s;
+}
+
+.navbar-logout:hover {
+  border: 1px solid rgb(13, 50, 111);
+
+  background-color: rgb(233, 233, 233);
+}
+
+/*** SIGNUP ***/
 
 .signup-container > ul {
   

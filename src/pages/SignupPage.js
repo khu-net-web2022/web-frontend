@@ -53,7 +53,7 @@ function SignupContainer() {
   }
   
   return (
-    <div className="signup-container">
+    <div className="content-block signup-container">
       <ul>
         <ul>
           <li className="signup-title">{"회원가입"}</li>
