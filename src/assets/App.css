@@ -83,3 +83,63 @@ a {
 
   background-color: aliceblue;
 }
+
+.signup-container > ul {
+  
+  padding: 5vh 3vh;
+  border: 1px solid rgb(193, 193, 193);
+  background-color: white;
+  border-radius: 20px;
+  width: 30vh;
+  margin: auto;
+}
+
+.signup-item {
+  height: 8vh;
+  font-size: smaller;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+.signup-text {
+  margin-top: 1vh;
+}
+
+.signup-title {
+  font-weight: bolder;
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.signup-item input {
+  width: 100%;
+  padding: 4px;
+  margin: 0;
+  border-radius: 9px;
+  border: 2px solid rgb(218, 218, 218);
+  /* default font color should be 142, 142, 142
+  input font color should be 0, 0, 0*/
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+
+.signup-error {
+  padding-top: 1px;
+  font-size: 0.6em;
+  color: crimson;
+}
+
+.signup-button {
+  border:1px solid rgb(50, 50, 50);
+  background-color: white;
+  margin-top: 2vh;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 1vh;
+  float: right;
+}
