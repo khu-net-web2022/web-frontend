@@ -85,7 +85,7 @@ a {
 }
 
 .signup-container > ul {
-  display: grid;
+  
   padding: 5vh 3vh;
   border: 1px solid rgb(193, 193, 193);
   background-color: white;
